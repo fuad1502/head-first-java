@@ -1,11 +1,8 @@
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.ArrayList;
-
-import javax.swing.*;
 
 class QuizCardBuilder {
   private JTextArea questionTextArea;
