@@ -24,6 +24,12 @@ public class InstrumentBox extends Box {
     return beats;
   }
 
+  public void setCheckBoxs(ArrayList<Boolean> beats) {
+    for(int i = 0; i < NUMBER_OF_BEATS; i++) {
+      checkBoxs.get(i).setSelected(beats.get(i));
+    } 
+  }
+
   public int getTone() {
     return tone;
   }
